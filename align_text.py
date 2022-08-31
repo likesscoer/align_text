@@ -1,8 +1,8 @@
 from urllib.request import urlopen
 import re, textwrap, random
 
-line_limit = 60
-random_paragraphs = True
+line_limit = 40
+random_paragraphs = False
 
 
 def remove_html(source):
